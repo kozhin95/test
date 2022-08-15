@@ -1,0 +1,45 @@
+
+body {
+	background-color: snow;
+
+}
+nav {
+
+	width: 60%;
+	background-color: black;
+	height: 40px;
+}
+nav ul li {
+	width: 25%;
+	float: left;
+	text-align: center;
+	line-height: 45px;
+	border-left: 1px solid snow;
+	height: 25%;
+}
+nav ul li a {
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	display: block;
+}
+
+nav ul li ul {
+	width: 15%;
+	position: absolute;
+	display: none;
+}
+
+nav ul li ul li{
+	width: 100%;
+}
+nav ul li a:hover {
+	background-color:cyan ;
+	color: black;
+	opacity: 0.8;
+}
+
+nav ul li:hover ul {
+	display: block;
+
+}
